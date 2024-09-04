@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainContainer{
+    margin: 30px 0px 0px 270px;
+    width: 80%;
+}
+.borderRadius{
+    box-shadow: 3px 1px 3px 0px #00000017;
+}
+
+/* sign in  */
+.signInContainer{
+    background-image: url("./resources/signIn.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* sign up  */
+.signUpContainer{
+    background-image: url("./resources/signUp.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.trapezoid {
+	border-top: 50px solid white;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 100px;
+    outline: #D2D2D2;
+	width: 125px;
+    border-radius: 5px;
+    position: relative;
+}

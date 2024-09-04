@@ -1,0 +1,85 @@
+.slidebar-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: 16px;
+    padding: 24px 16px;
+    box-shadow: 0px 4px 4px 0px #00000040;  
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 72px;
+    padding: 0px 5px 0px 5px;
+}
+.logo img{
+    height: 50px;
+    width: 100px; 
+}
+.logo .beta{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22.4px;
+    width: 45px;
+    text-align: center;
+    border-radius: 33px;
+    color: white;
+    background-color: #6400CD;
+}
+.slidebar-menu a{
+    text-decoration-line: none;
+    color: #3A383F;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 10px 4px;
+}
+.slidebar-menu a .icon{
+    font-size: 24px;
+}
+.slidebar-menu a span{
+    font-size: 16px;
+    font-weight:600;
+}
+.slidebar-menu .box{
+    height: 990px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.slidebar-menu .box .first{
+    display: flex;
+    flex-direction: column;
+}
+.slidebar-menu .box a:hover{
+    background-color: #F7F3FD;
+    border-radius: 4px;
+    color: #6400CD;
+}
+.slidebar-menu .box .middle{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px 10px 40px 10px;
+}
+.slidebar-menu .box .middle .title{
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 23.16px;
+    color: #202224;
+}
+.slidebar-menu .box .middle .option{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    color: #202224;
+}

@@ -1,0 +1,90 @@
+/* header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 95%;
+    margin-bottom: 26px;
+}
+.header .select_menu{
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 19.5px;
+    color: #353333;
+    display: flex;
+    gap: 8px;
+    width:600px;
+    position: relative;
+    margin-bottom: 25px;
+}
+/* .header .select_menu::after{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    width: 100%;
+    border-bottom: 1px solid #D1D1D1;
+} */
+.header .select_menu span{
+    color: #8da4ad;
+}
+.header-second{
+    position: relative;
+}
+/* .header-second::after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 20px;
+    border-left: 40px solid red ;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header .user{
+    width: 195px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 26.26px;
+}
+.header .user img{
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+}
+.header .user .user-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 2.29px;
+    height: 39.8px;
+    width: 103px;
+}
+.header .user .user-detail .name{
+    color: #333333;
+    font-size: 17.51px;
+    line-height: 17.51px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.header .user .user-detail .userId{
+    font-size: 12.25px;
+    line-height: 17.51px;
+    font-weight: 400;
+    color: #A0A7BA;
+}
